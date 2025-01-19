@@ -51,24 +51,21 @@
      ```
 
 3. **Controls**:
-   - **Start**: Begin the sorting visualization.
-   - **Pause**: Temporarily stop the visualization.
-   - **Reset**: Restart with a new random array.
-   - **Speed Adjustment**: Modify visualization speed.
+   Available Controls inside Sorting Visualizer:-
+
+-Use 0 to Generate a different randomized list.
+-Use 1 to start Selection Sort Algorithm.
+-Use 2 to start Insertion Sort Algorithm.
+-Use 3 to start Bubble Sort Algorithm.
+-Use 4 to start Merge Sort Algorithm.
+-Use 5 to start Quick Sort Algorithm.
+-Use 6 to start Heap Sort Algorithm.
+-Use q to exit out of Sorting Visualizer
 
 ---
 
-## **Future Enhancements**
-1. Add more algorithms like **Radix Sort** and **Shell Sort**.
-2. Introduce user-defined array inputs.
-3. Provide algorithm descriptions during visualization.
+# Technology Used:
+-C++: Core logic for sorting algorithms and application structure.
+-SDL2: Graphics library for rendering and window management.
 
----
-
-## **Acknowledgments**
-- **SDL2** for providing a lightweight and powerful graphics framework.
-- Open-source resources for algorithm implementation insights.
-
----
-
-Enjoy exploring and learning sorting algorithms with **Sorting Visualizer**! 🚀
+# Sample
