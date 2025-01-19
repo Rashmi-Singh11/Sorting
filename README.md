@@ -71,7 +71,8 @@
    -Use q to exit out of Sorting Visualizer
 
 ---
-
+## **Sample Screenshot**
+![Sorting Visualizer Screenshot](example1.gif)
 # Technology Used:
 -C++: Core logic for sorting algorithms and application structure.
 
