@@ -1,44 +1,74 @@
-# Sorting Visualization
-Sorting Visualizer is a desktop-based application built using C++ and SDL2, designed to visually demonstrate various sorting algorithms. This project aims to help users understand sorting algorithms through graphical animations, showcasing how the elements in an array are rearranged step by step.
+# **Sorting Visualizer**
 
-# Key Features
-**Algorithm Visualization:
-**
-1.Visual representation of sorting steps for better understanding.
+**Sorting Visualizer** is a desktop-based application built using **C++** and **SDL2**, designed to visually demonstrate various sorting algorithms. This project aims to help users understand sorting algorithms through graphical animations, showcasing how the elements in an array are rearranged step by step.
 
-2.Displays comparisons, swaps, and sorted elements in real-time.
-**Supported Sorting Algorithms:**
+---
 
-1.Bubble Sort
+## **Key Features**
 
-2.Selection Sort
+### **Algorithm Visualization**:
+- Visual representation of sorting steps for better understanding.
+- Displays comparisons, swaps, and sorted elements in real-time.
 
-3.Insertion Sort
+### **Supported Sorting Algorithms**:
+- **Bubble Sort**
+- **Selection Sort**
+- **Insertion Sort**
+- **Merge Sort**
+- **Quick Sort**
+- **Heap Sort**
 
-4.Merge Sort
+### **Customizable Array**:
+- Generate arrays with different sizes and value ranges.
+- Dynamic rendering of array bars to match the input size.
 
-5.Quick Sort
+### **Interactive Controls**:
+- Start, pause, and reset the visualization.
+- Adjust the speed of the animation for better observation.
 
-6.Heap Sort
+### **Educational Insights**:
+- Highlights the active elements being compared or swapped.
+- Provides time complexity details for each algorithm.
 
-**Customizable Array:**
+### **Cross-Platform Support**:
+- Works on Windows, Linux, and macOS with SDL2.
 
-1.Generate arrays with different sizes and value ranges.
+---
 
-2.Dynamic rendering of array bars to match the input size.
+## **How to Use**
 
-**Interactive Controls:**
+1. **Install SDL2**:
+   - On Ubuntu: `sudo apt install libsdl2-dev`
+   - On Windows: Download and configure from [SDL2 website](https://www.libsdl.org/download-2.0.php).
+   - On macOS: `brew install sdl2`
 
-1.Start, pause, and reset the visualization.
+2. **Compile and Run**:
+   - Use a C++ compiler (e.g., GCC) to build the project.
+   - Example command:
+     ```bash
+     g++ -o sorting_visualizer sorting_visualizer.cpp -lSDL2 -std=c++17
+     ./sorting_visualizer
+     ```
 
-2.Adjust the speed of the animation for better observation.
+3. **Controls**:
+   - **Start**: Begin the sorting visualization.
+   - **Pause**: Temporarily stop the visualization.
+   - **Reset**: Restart with a new random array.
+   - **Speed Adjustment**: Modify visualization speed.
 
-**Educational Insights:**
+---
 
-1.Highlights the active elements being compared or swapped.
+## **Future Enhancements**
+1. Add more algorithms like **Radix Sort** and **Shell Sort**.
+2. Introduce user-defined array inputs.
+3. Provide algorithm descriptions during visualization.
 
-2.Provides time complexity details for each algorithm.
+---
 
-**Cross-Platform Support:**
+## **Acknowledgments**
+- **SDL2** for providing a lightweight and powerful graphics framework.
+- Open-source resources for algorithm implementation insights.
 
-1.Works on Windows, Linux, and macOS with SDL2.
+---
+
+Enjoy exploring and learning sorting algorithms with **Sorting Visualizer**! 🚀
