@@ -77,4 +77,3 @@
 
 -SDL2: Graphics library for rendering and window management.
 
-# Sample
