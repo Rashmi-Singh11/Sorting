@@ -2,41 +2,43 @@
 Sorting Visualizer is a desktop-based application built using C++ and SDL2, designed to visually demonstrate various sorting algorithms. This project aims to help users understand sorting algorithms through graphical animations, showcasing how the elements in an array are rearranged step by step.
 
 # Key Features
-Algorithm Visualization:
+**Algorithm Visualization:
+**
+1.Visual representation of sorting steps for better understanding.
 
-Visual representation of sorting steps for better understanding.
-Displays comparisons, swaps, and sorted elements in real-time.
-Supported Sorting Algorithms:
+2.Displays comparisons, swaps, and sorted elements in real-time.
+**Supported Sorting Algorithms:**
 
-Bubble Sort
-Selection Sort
-Insertion Sort
-Merge Sort
-Quick Sort
-Heap Sort
-Customizable Array:
+1.Bubble Sort
 
-Generate arrays with different sizes and value ranges.
-Dynamic rendering of array bars to match the input size.
-Interactive Controls:
+2.Selection Sort
 
-Start, pause, and reset the visualization.
-Adjust the speed of the animation for better observation.
-Educational Insights:
+3.Insertion Sort
 
-Highlights the active elements being compared or swapped.
-Provides time complexity details for each algorithm.
-Cross-Platform Support:
+4.Merge Sort
 
-Works on Windows, Linux, and macOS with SDL2.
-How It Works
-Initialization:
-The SDL2 library is used to create a graphical window and handle rendering.
-Rendering:
-Array elements are represented as vertical bars with heights corresponding to their values.
-Real-time updates display comparisons and swaps during the sorting process.
-Algorithm Execution:
-Each algorithm is implemented in C++ with visual hooks to update the rendering.
-Technologies Used
-C++: Core logic for sorting algorithms and application structure.
-SDL2: Graphics library for rendering and window management.
+5.Quick Sort
+
+6.Heap Sort
+
+**Customizable Array:**
+
+1.Generate arrays with different sizes and value ranges.
+
+2.Dynamic rendering of array bars to match the input size.
+
+**Interactive Controls:**
+
+1.Start, pause, and reset the visualization.
+
+2.Adjust the speed of the animation for better observation.
+
+**Educational Insights:**
+
+1.Highlights the active elements being compared or swapped.
+
+2.Provides time complexity details for each algorithm.
+
+**Cross-Platform Support:**
+
+1.Works on Windows, Linux, and macOS with SDL2.
